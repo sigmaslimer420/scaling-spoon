@@ -1,17 +1,26 @@
 {
   "name": "scaling-spoon",
   "version": "1.0.0",
-  "description": "A Discord bot project.",
+  "description": "Discord anti-nuke bot with MongoDB integration, slash commands, whitelist & logging",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "engines": {
     "node": ">=18.0.0"
   },
   "dependencies": {
-    "discord.js": "^14.0.0"
+    "discord.js": "^14.11.0",
+    "mongoose": "^7.0.0",
+    "@discordjs/rest": "^1.4.0",
+    "discord-api-types": "^0.37.0",
+    "dotenv": "^16.0.0",
+    "winston": "^3.8.0"
   },
-  "author": "Your Name",
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "author": "sigmaslimer420",
   "license": "MIT"
 }
