@@ -1,0 +1,17 @@
+{
+  "name": "scaling-spoon",
+  "version": "1.0.0",
+  "description": "A Discord bot project.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.0.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
