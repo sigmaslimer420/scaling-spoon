@@ -1,24 +1,32 @@
 {
-  "name": "scaling-spoon",
+  "name": "discord-security-bot",
   "version": "1.0.0",
-  "description": "Discord anti-nuke bot…",
+  "description": "Discord security and moderation bot with anti-abuse features",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "engines": { "node": ">=18.0.0" },
+  "keywords": [
+    "discord",
+    "bot",
+    "moderation",
+    "security",
+    "anti-abuse"
+  ],
+  "author": "",
+  "license": "MIT",
   "dependencies": {
     "discord.js": "^14.11.0",
-    "mongoose": "^7.0.0",
-    "@discordjs/rest": "^1.4.0",
-    "discord-api-types": "^0.37.0",
-    "dotenv": "^16.0.0",
-    "winston": "^3.8.0",
-    "punycode": "^2.1.1"
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0"
   },
   "devDependencies": {
-    "nodemon": "^3.0.0"
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.9.0"
   }
 }
